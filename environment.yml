@@ -1,0 +1,42 @@
+name: ml4t
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
+  - jupyter
+  - notebook
+  - ipywidgets
+  - statsmodels
+  - yfinance
+  - pyarrow
+  - openpyxl
+  - xlrd
+  - tqdm
+  - requests
+  - beautifulsoup4
+  - lxml
+  - sqlalchemy
+  - pymysql
+  - ta-lib
+  - cvxpy
+  - pyomo
+  - pip
+  - pip:
+      - ffn
+      - bt
+      - alpaca-trade-api
+      - pandas-datareader
+      - pykalman
+      - empyrical
+      - dash
+      - dash-bootstrap-components
+      - dash-core-components
+      - dash-html-components
+      - dash-table
+      - zipline-reloaded
